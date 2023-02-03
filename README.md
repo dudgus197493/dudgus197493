@@ -14,3 +14,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+![Tonic's GitHub stats](https://github-readme-stats.vercel.app/api?username=dudgus197493&show_icons=true&theme=cobalt)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dudgus197493&layout=compact&theme=gruvbox)
