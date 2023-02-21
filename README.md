@@ -1,6 +1,6 @@
 <div align="center">
   
-  ![header](https://capsule-render.vercel.app/api?type=waving&color=timeAuto&height=200&section=header&text=Hello%20World!&fontSize=50&animation=fadeIn)
+  ![header](https://capsule-render.vercel.app/api?type=waving&color=timeAuto&height=200&section=header&text='노력'하는%20개발자!&fontSize=50&animation=fadeIn)
   
   <h3>Email</h3>
   
