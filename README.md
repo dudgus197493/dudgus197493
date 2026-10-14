@@ -16,7 +16,7 @@ Java·Spring Boot와 Python·FastAPI를 중심으로 생성형 AI 플랫폼을 �
 
 ## Selected Professional Work
 
-### [DinAI](https://github.com/dudgus197493/dinai)
+### DinAI
 
 다이닝브랜즈그룹의 생성형 AI 플랫폼 프로젝트입니다. React, Spring Boot, FastAPI와 PostgreSQL 전 계층에서 기능을 개발했습니다.
 
@@ -25,9 +25,7 @@ Java·Spring Boot와 Python·FastAPI를 중심으로 생성형 AI 플랫폼을 �
 - 문서 파싱 엣지 케이스와 URL 중복 제거 회귀 테스트
 - 조회 인덱스와 성능 검증 데이터, 컨테이너 의존성 최적화
 
-공개 저장소에는 회사 코드 없이 예산 정책과 요청 제어 수직 기능을 독립 재구현했습니다.
-
-### [대상그룹 AI 플랫폼](https://github.com/dudgus197493/daesang-ai-platform)
+### 대상그룹 AI 플랫폼
 
 React·TypeScript, Spring Boot와 Python LLM API로 구성된 기업용 AI 플랫폼을 개발했습니다.
 
@@ -35,17 +33,13 @@ React·TypeScript, Spring Boot와 Python LLM API로 구성된 기업용 AI 플�
 - 도메인 감사 로그와 E2E 테스트, 민감 정보 처리 경계 구현
 - 시스템 프롬프트 노출 방어와 토큰 한도 기반 대화 컨텍스트 처리
 
-공개 저장소에는 회사 코드 없이 회사 범위 접근 제어와 LLM 보안 수직 기능을 독립 재구현했습니다.
-
-### [생성형 AI 챗봇](https://github.com/dudgus197493/genai-chatbot)
+### 생성형 AI 챗봇
 
 React 클라이언트, Spring Boot 코어 API, Python AI API와 PostgreSQL로 구성된 생성형 AI 챗봇 V1·V2를 개발했습니다.
 
 - SSE 프록시 실행기와 오류 처리, 사용자·클라이언트 추적 정보 전달
 - 파일 업로드 상태와 대화 상태의 책임 분리, 첨부파일 수명주기 보강
 - 세션 소유권 검사와 요청별 RAG 제어
-
-공개 저장소에는 회사 코드 없이 세션 접근 경계, 첨부파일 상태와 SSE 이벤트 수직 기능을 독립 재구현했습니다.
 
 ## Featured Projects
 
