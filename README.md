@@ -30,6 +30,15 @@ React 클라이언트, Spring Boot 코어 API, Python AI API와 데이터베이�
 
 ## Featured Projects
 
+### [GenAI Platform Lab](https://github.com/dudgus197493/genai-platform-lab)
+
+외부 API 키 없이 전체 흐름을 재현할 수 있는 스트리밍 대화 플랫폼입니다.
+
+- SSE 기반 점진적 응답과 요청 ID 추적
+- 응답 제공자 시간 제한, 재시도 및 지수 백오프
+- PostgreSQL 대화 이력과 저장소 경계 기반 테스트
+- React, FastAPI, Docker Compose 및 GitHub Actions 통합
+
 ### [TravelCompass](https://github.com/travel-compass/TravelCompass)
 
 한국관광공사와 KakaoMap API를 활용한 여행 정보 및 일정 관리 서비스입니다.
