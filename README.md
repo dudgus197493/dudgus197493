@@ -33,13 +33,6 @@ React·TypeScript, Spring Boot와 Python LLM API로 구성된 기업용 AI 플�
 - 도메인 감사 로그와 E2E 테스트, 민감 정보 처리 경계 구현
 - 시스템 프롬프트 노출 방어와 토큰 한도 기반 대화 컨텍스트 처리
 
-### Generative AI Chatbot Platform
-
-React 클라이언트, Spring Boot 코어 API, Python AI API와 데이터베이스를 분리한 생성형 AI 챗봇 플랫폼을 개발했습니다.
-
-- 스트리밍 실행기 구성과 프록시 오류 처리, 요청 추적 정보 전달
-- 파일 업로드 상태와 대화 상태의 책임 분리 및 접근 경계 보강
-
 ## Featured Projects
 
 ### [GenAI Platform Lab](https://github.com/dudgus197493/genai-platform-lab)
