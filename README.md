@@ -2,9 +2,9 @@
 
 Backend & Generative AI Platform Engineer
 
-Java와 Spring Boot, Python과 FastAPI를 중심으로 생성형 AI 서비스를 개발합니다.
+Java·Spring Boot와 Python·FastAPI를 중심으로 생성형 AI 플랫폼을 개발합니다.
 
-웹 클라이언트부터 도메인 API, LLM 연동, 데이터 계층까지 하나의 제품 흐름으로 연결하는 일에 관심이 있습니다.
+웹 클라이언트, 도메인 API, LLM 오케스트레이션과 데이터 계층을 연결하고 비용 통제, 접근 제어, 감사 로그와 회귀 검증을 통해 운영 가능한 서비스로 만드는 일을 해왔습니다.
 
 ## Core Competencies
 
@@ -18,26 +18,47 @@ Java와 Spring Boot, Python과 FastAPI를 중심으로 생성형 AI 서비스를
 
 ### DinAI AI Platform
 
-다이닝브랜즈그룹의 생성형 AI 플랫폼 프로젝트입니다. React 클라이언트, Spring Boot 도메인 API, FastAPI AI API, PostgreSQL 데이터 계층과 모니터링 도구로 구성된 서비스 개발에 참여했습니다.
+다이닝브랜즈그룹의 생성형 AI 플랫폼 프로젝트입니다. React, Spring Boot, FastAPI와 PostgreSQL 전 계층에서 기능을 개발했습니다.
+
+- 부서별 사용 한도와 실시간 비용 집계, 요청별 RAG 제어 및 가드레일 처리
+- SSE 스트리밍, 대화·첨부파일 수명주기와 관리자 감사·조회 기능
+- 조회 인덱스와 성능 검증 데이터, 컨테이너 의존성 최적화
 
 ### Enterprise AI Platform
 
-React·TypeScript 클라이언트, Spring Boot 도메인 API, Python LLM API와 배치 처리 계층을 연결하는 기업용 AI 플랫폼 개발에 참여했습니다.
+React·TypeScript, Spring Boot와 Python LLM API로 구성된 기업용 AI 플랫폼을 개발했습니다.
+
+- 사용자 역할과 회사 범위에 따른 관리자 데이터 접근 제어
+- 도메인 감사 로그와 E2E 테스트, 민감 정보 처리 경계 구현
+- 시스템 프롬프트 노출 방어와 토큰 한도 기반 대화 컨텍스트 처리
 
 ### Generative AI Chatbot Platform
 
 React 클라이언트, Spring Boot 코어 API, Python AI API와 데이터베이스를 분리한 생성형 AI 챗봇 플랫폼을 개발했습니다.
 
+- 스트리밍 실행기 구성과 프록시 오류 처리, 요청 추적 정보 전달
+- 파일 업로드 상태와 대화 상태의 책임 분리 및 접근 경계 보강
+
 ## Featured Projects
 
 ### [GenAI Platform Lab](https://github.com/dudgus197493/genai-platform-lab)
 
-외부 API 키 없이 전체 흐름을 재현할 수 있는 스트리밍 대화 플랫폼입니다.
+외부 API 키 없이 전체 흐름을 재현할 수 있는 멀티테넌트 스트리밍 대화 플랫폼입니다.
 
-- SSE 기반 점진적 응답과 요청 ID 추적
+- SSE 기반 점진적 응답과 Nginx부터 감사 로그까지 이어지는 요청 ID 추적
+- 테넌트별 대화 격리와 조건부 UPSERT 기반 일일 사용 한도
+- 요청별 RAG 제어와 허용·거부·완료·실패 감사 이벤트
 - 응답 제공자 시간 제한, 재시도 및 지수 백오프
-- PostgreSQL 대화 이력과 저장소 경계 기반 테스트
-- React, FastAPI, Docker Compose 및 GitHub Actions 통합
+- React, FastAPI, PostgreSQL, Docker Compose 통합 및 CI 스모크 테스트
+
+### [AI Quality Lab](https://github.com/dudgus197493/ai-quality-lab)
+
+LLM 애플리케이션의 출력과 실행 추적을 외부 모델 없이 검사하는 결정형 회귀 품질 게이트입니다.
+
+- 프롬프트 노출, 도구 호출 순서와 RAG 근거 포함 여부 평가
+- JSONL 데이터셋과 케이스별 판정 이유를 포함한 JSON 리포트
+- 기준 리포트에서 성공했던 항목의 실패를 별도 회귀로 탐지
+- 최소 통과율 또는 회귀 발생 시 CI 실패 처리
 
 ### [TravelCompass](https://github.com/travel-compass/TravelCompass)
 
@@ -58,7 +79,7 @@ React 클라이언트, Spring Boot 코어 API, Python AI API와 데이터베이�
 - AI: LLM, RAG, LangChain, LangGraph, AWS Bedrock
 - Frontend: React, TypeScript, JavaScript
 - Data: PostgreSQL, Oracle, MySQL
-- Infrastructure: Docker, AWS
+- Infrastructure: Docker, AWS, GitHub Actions
 
 ## Contact
 
