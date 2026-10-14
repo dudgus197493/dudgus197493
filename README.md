@@ -1,34 +1,57 @@
-<div align="center">
-  
-  ![header](https://capsule-render.vercel.app/api?type=waving&color=timeAuto&height=200&section=header&text='노력'하는%20개발자!&fontSize=50&animation=fadeIn)
-  
-  <h3>Email</h3>
-  
-  [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:kyh991023@gmail.com)](mailto:kyh991023@gmail.com)
-  [![Gmail Badge](https://img.shields.io/badge/Naver-03C75A?style=flat-square&logo=Naver&logoColor=white&link=mailto:dudgus197493@naver.com)](mailto:dudgus197493@naver.com)
-  
-  <h3>Back Tech Stack</h3>
-  <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=OpenJDK&logoColor=white">&nbsp
-  <img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white">&nbsp
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=C&logoColor=white">
-  
-  <h3>DataBase Tech Stack</h3>
-  <img src="https://img.shields.io/badge/oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white">&nbsp
-  <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
-  
-  <h3>Front Tech Stack</h3>
-  <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">&nbsp
-  <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">&nbsp
-  <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-  
-  <h3>Tools</h3>
-  <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
-  <img src="https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=Eclipse-IDE&logoColor=white">
-  <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=for-the-badge&logo=VisualStudioCode&logoColor=white">
-  <br><br>
-  
-  ![Tonic's GitHub stats](https://github-readme-stats.vercel.app/api?username=dudgus197493&show_icons=true&theme=cobalt)
+# 김영현
 
-  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dudgus197493&layout=compact&theme=gruvbox)
-  
-</div>
+Backend & Generative AI Platform Engineer
+
+Java와 Spring Boot, Python과 FastAPI를 중심으로 생성형 AI 서비스를 개발합니다.
+
+웹 클라이언트부터 도메인 API, LLM 연동, 데이터 계층까지 하나의 제품 흐름으로 연결하는 일에 관심이 있습니다.
+
+## Core Competencies
+
+- Spring Boot와 FastAPI를 활용한 백엔드 및 AI API 개발
+- React와 TypeScript를 포함한 생성형 AI 서비스 통합
+- LLM, RAG, 평가, 가드레일 및 서비스 모니터링
+- PostgreSQL과 Oracle 기반 데이터 모델링 및 연동
+- Docker와 AWS 기반 개발·운영 환경 구성
+
+## Selected Professional Work
+
+### DinAI AI Platform
+
+다이닝브랜즈그룹의 생성형 AI 플랫폼 프로젝트입니다. React 클라이언트, Spring Boot 도메인 API, FastAPI AI API, PostgreSQL 데이터 계층과 모니터링 도구로 구성된 서비스 개발에 참여했습니다.
+
+### Enterprise AI Platform
+
+React·TypeScript 클라이언트, Spring Boot 도메인 API, Python LLM API와 배치 처리 계층을 연결하는 기업용 AI 플랫폼 개발에 참여했습니다.
+
+### Generative AI Chatbot Platform
+
+React 클라이언트, Spring Boot 코어 API, Python AI API와 데이터베이스를 분리한 생성형 AI 챗봇 플랫폼을 개발했습니다.
+
+## Featured Projects
+
+### [TravelCompass](https://github.com/travel-compass/TravelCompass)
+
+한국관광공사와 KakaoMap API를 활용한 여행 정보 및 일정 관리 서비스입니다.
+
+- 좌표 기반 관광정보 조회와 외부 API·Oracle 데이터 연동
+- 로그인, 이메일 인증, 비밀번호 암호화 및 비동기 유효성 검사
+- 여행 일정 CRUD와 지도·로드뷰 기능
+- 공통 유틸리티 구현과 Git 협업 관리
+
+### [Cubespace](https://github.com/Team-Cubespace/Cubespace)
+
+팀 기반 웹 애플리케이션 프로젝트로, 저장소 기준 217개 커밋에 참여했습니다.
+
+## Technology
+
+- Backend: Java, Spring Boot, Python, FastAPI
+- AI: LLM, RAG, LangChain, LangGraph, AWS Bedrock
+- Frontend: React, TypeScript, JavaScript
+- Data: PostgreSQL, Oracle, MySQL
+- Infrastructure: Docker, AWS
+
+## Contact
+
+- Email: [kyh991023@gmail.com](mailto:kyh991023@gmail.com)
+- GitHub: [github.com/dudgus197493](https://github.com/dudgus197493)
