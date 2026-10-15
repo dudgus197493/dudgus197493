@@ -41,8 +41,6 @@ React·TypeScript, Spring Boot와 Python LLM API로 구성된 기업용 AI 플�
 
 React 클라이언트, Spring Boot 코어 API, Python AI API와 PostgreSQL로 구성된 생성형 AI 챗봇 V1·V2를 개발했습니다.
 
-공개 재구현: V1 [Client](https://github.com/dudgus197493/genai-client) · [Core API](https://github.com/dudgus197493/genai-core-api) · [LLM API](https://github.com/dudgus197493/genai-llm-api) / V2 [Client](https://github.com/dudgus197493/chatbot-client) · [Core API](https://github.com/dudgus197493/chatbot-core-api) · [AI API](https://github.com/dudgus197493/chatbot-ai-api) · [Database](https://github.com/dudgus197493/chatbot-db)
-
 - SSE 프록시 실행기와 오류 처리, 사용자·클라이언트 추적 정보 전달
 - 파일 업로드 상태와 대화 상태의 책임 분리, 첨부파일 수명주기 보강
 - 세션 소유권 검사와 요청별 RAG 제어
