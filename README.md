@@ -37,14 +37,6 @@ React·TypeScript, Spring Boot와 Python LLM API로 구성된 기업용 AI 플�
 - 도메인 감사 로그와 E2E 테스트, 민감 정보 처리 경계 구현
 - 시스템 프롬프트 노출 방어와 토큰 한도 기반 대화 컨텍스트 처리
 
-### 생성형 AI 챗봇
-
-React 클라이언트, Spring Boot 코어 API, Python AI API와 PostgreSQL로 구성된 생성형 AI 챗봇 V1·V2를 개발했습니다.
-
-- SSE 프록시 실행기와 오류 처리, 사용자·클라이언트 추적 정보 전달
-- 파일 업로드 상태와 대화 상태의 책임 분리, 첨부파일 수명주기 보강
-- 세션 소유권 검사와 요청별 RAG 제어
-
 ## Featured Projects
 
 ### [AI Quality Lab](https://github.com/dudgus197493/ai-quality-lab)
