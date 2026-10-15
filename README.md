@@ -16,24 +16,6 @@ Java·Spring Boot와 Python·FastAPI를 중심으로 생성형 AI 플랫폼을 �
 
 ## Featured Projects
 
-### [AI Quality Lab](https://github.com/dudgus197493/ai-quality-lab)
-
-LLM 애플리케이션의 출력과 실행 추적을 외부 모델 없이 검사하는 결정형 회귀 품질 게이트입니다.
-
-- 프롬프트 노출, 도구 호출 순서와 RAG 근거 포함 여부 평가
-- JSONL 데이터셋과 케이스별 판정 이유를 포함한 JSON 리포트
-- 기준 리포트에서 성공했던 항목의 실패를 별도 회귀로 탐지
-- 최소 통과율 또는 회귀 발생 시 CI 실패 처리
-
-### [Document Ops Lab](https://github.com/dudgus197493/document-ops-lab)
-
-문서 정규화부터 중복 제거, 실패 재처리와 운영 리포트까지 연결한 로컬 처리 파이프라인입니다.
-
-- 여러 페이지에서 반복되는 머리글·바닥글 제거와 텍스트 정규화
-- SHA-256 콘텐츠 해시로 소스 경로가 다른 중복 문서 식별
-- SQLite에 소스별 상태·시도 횟수·오류와 고유 산출물 분리 저장
-- 실패 작업 선택적 재실행과 처리 현황 Markdown 리포트 생성
-
 ### [TravelCompass](https://github.com/travel-compass/TravelCompass)
 
 한국관광공사와 KakaoMap API를 활용한 여행 정보 및 일정 관리 서비스입니다.
