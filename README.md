@@ -14,29 +14,6 @@ Java·Spring Boot와 Python·FastAPI를 중심으로 생성형 AI 플랫폼을 �
 - PostgreSQL과 Oracle 기반 데이터 모델링 및 연동
 - Docker와 AWS 기반 개발·운영 환경 구성
 
-## Selected Professional Work
-
-### [DinAI](https://github.com/dudgus197493/dinai-case-study)
-
-다이닝브랜즈그룹의 생성형 AI 플랫폼 프로젝트입니다. React, Spring Boot, FastAPI와 PostgreSQL 전 계층에서 기능을 개발했습니다.
-
-공개 재구현: [Client](https://github.com/dudgus197493/dinai-client) · [Core API](https://github.com/dudgus197493/dinai-core-api) · [AI API](https://github.com/dudgus197493/dinai-ai-api) · [Database](https://github.com/dudgus197493/dinai-db)
-
-- 부서별 사용 한도와 실시간 비용 집계, 요청별 RAG 제어 및 가드레일 처리
-- SSE 스트리밍, 대화·첨부파일 수명주기와 관리자 감사·조회 기능
-- 문서 파싱 엣지 케이스와 URL 중복 제거 회귀 테스트
-- 조회 인덱스와 성능 검증 데이터, 컨테이너 의존성 최적화
-
-### [대상그룹 AI 플랫폼](https://github.com/dudgus197493/daesang-ai-platform-case-study)
-
-React·TypeScript, Spring Boot와 Python LLM API로 구성된 기업용 AI 플랫폼을 개발했습니다.
-
-공개 재구현: [Client](https://github.com/dudgus197493/ai-platform-client) · [Domain API](https://github.com/dudgus197493/ai-platform-domain-api) · [LLM API](https://github.com/dudgus197493/ai-platform-llm-api) · [Batch](https://github.com/dudgus197493/ai-platform-batch)
-
-- 사용자 역할과 회사 범위에 따른 관리자 데이터 접근 제어
-- 도메인 감사 로그와 E2E 테스트, 민감 정보 처리 경계 구현
-- 시스템 프롬프트 노출 방어와 토큰 한도 기반 대화 컨텍스트 처리
-
 ## Featured Projects
 
 ### [AI Quality Lab](https://github.com/dudgus197493/ai-quality-lab)
