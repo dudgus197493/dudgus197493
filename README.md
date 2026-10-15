@@ -4,6 +4,8 @@ Backend & Generative AI Platform Engineer
 
 [Email](mailto:kyh991023@gmail.com) · [GitHub](https://github.com/dudgus197493)
 
+[Detailed Engineering Stories](./STORY.md) — 다이나이·대상그룹 AI 플랫폼의 핵심 설계와 문제 해결 과정
+
 Java·Spring Boot와 Python·FastAPI를 중심으로 기업용 생성형 AI 플랫폼을 개발해 왔습니다. React 클라이언트부터 도메인 API, LLM 오케스트레이션, PostgreSQL 데이터 계층까지 연결하며 기능 설계·구현·검증과 운영 문제 해결을 수행했습니다.
 
 문제를 한 계층의 오류로 단정하지 않고 사용자 경로, 애플리케이션 코드, DB와 외부 API를 함께 대조합니다. 재현 조건과 지표의 분모를 먼저 정의하고, 변경 범위와 롤백 가능성을 확인한 뒤 E2E 검증으로 마무리합니다.
